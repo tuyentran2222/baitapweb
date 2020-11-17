@@ -1,0 +1,89 @@
+.NewContainer{
+    margin-top: 100px;
+    width: 100%;
+    
+}
+.titleNew{
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 50px;
+    
+}
+.titleNew h2{
+    font-size: 50px;
+}
+.titleNew p{
+    font-weight: 500;
+}
+.new{
+    display: inline-block;
+    width: 20%;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+    -webkit-transform:scale(1); /*Webkit: Scale down image to 0.8x original size*/
+    -moz-transform:scale(1); /*Mozilla scale version*/
+    -o-transform:scale(1); /*Opera scale version*/
+    -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+    -moz-transition-duration: 0.5s; /*Mozilla duration version*/
+    -o-transition-duration: 0.5s; /*Opera duration version*/
+    margin: 0 10px 5px 0; /*margin between images*/
+}
+.new:hover{
+    cursor: pointer;
+    -webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+    -moz-transform:scale(1.1); /*Mozilla scale version*/
+    -o-transform:scale(1.1); /*Opera scale version*/
+}
+.new div{
+    margin:10px 5px;
+}
+.new div h6{
+    font-weight: bolder;
+}
+.new div p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#80879B;
+}
+
+#new1{
+    margin-left:5%;
+}
+#new2{
+    margin-left:4%;
+}
+#new3{
+    margin-left:4%;
+}
+
+.new img{
+    width: 100%;
+    
+}
+@media only screen and (max-width: 900px) {
+    .new{
+        width:40%;
+        margin-bottom: 35px;
+    }
+    #new1{
+        margin-left:10%;
+    }
+    #new3{
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .new{
+        width:70%;
+        margin-bottom: 35px;
+    }
+    #new1{
+        margin-left:15%;
+    }
+    #new2{
+        margin-left:15%;
+    }
+    #new3{
+        margin-left: 15%;
+    }
+}
